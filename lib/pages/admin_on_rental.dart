@@ -78,10 +78,10 @@ class AdminOnRental extends StatelessWidget {
                                                 fontSize: 18,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.blue)),
-                                        Text(e['user'][0],
-                                            style: TextStyle(
-                                                fontSize: 16,
-                                                color: Colors.black54)),
+                                        // Text(e['user'][0],
+                                        //     style: TextStyle(
+                                        //         fontSize: 16,
+                                        //         color: Colors.black54)),
                                       ],
                                     )
                                   ],

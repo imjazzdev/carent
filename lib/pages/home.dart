@@ -26,6 +26,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
+    print(Utils.USER_NOW);
     return Scaffold(
       appBar: AppBar(
         title: Text('Home'),

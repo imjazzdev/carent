@@ -92,6 +92,11 @@ class _AdminPengajuanSewaState extends State<AdminPengajuanSewa> {
                                                 fontSize: 18,
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.blue)),
+                                        Text('${e['user']}',
+                                            style: TextStyle(
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.grey)),
                                       ],
                                     )
                                   ],
