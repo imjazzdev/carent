@@ -130,34 +130,34 @@ class _SignInState extends State<SignIn> {
                       decoration: InputDecoration(
                           labelText: 'Password', border: OutlineInputBorder()),
                     ),
-                    Align(
-                      alignment: Alignment.centerRight,
-                      child: TextButton(
-                          onPressed: () async {
-                            try {
-                              await auth.sendPasswordResetEmail(
-                                email: email.text,
-                              );
+                    // Align(
+                    //   alignment: Alignment.centerRight,
+                    //   child: TextButton(
+                    //       onPressed: () async {
+                    //         try {
+                    //           await auth.sendPasswordResetEmail(
+                    //             email: email.text,
+                    //           );
 
-                              AwesomeDialog(
-                                context: context,
-                                animType: AnimType.scale,
-                                dialogType: DialogType.success,
-                                title:
-                                    'Check! Reset password send to ${email.text}',
-                                btnCancelOnPress: () {},
-                                btnOkOnPress: () {},
-                              ).show();
-                            } catch (e) {
-                              ScaffoldMessenger.of(context)
-                                  .showSnackBar(SnackBar(
-                                content: Text(e.toString()),
-                                backgroundColor: Colors.orange.shade400,
-                              ));
-                            }
-                          },
-                          child: Text('Forgot password?')),
-                    ),
+                    //           AwesomeDialog(
+                    //             context: context,
+                    //             animType: AnimType.scale,
+                    //             dialogType: DialogType.success,
+                    //             title:
+                    //                 'Check! Reset password send to ${email.text}',
+                    //             btnCancelOnPress: () {},
+                    //             btnOkOnPress: () {},
+                    //           ).show();
+                    //         } catch (e) {
+                    //           ScaffoldMessenger.of(context)
+                    //               .showSnackBar(SnackBar(
+                    //             content: Text(e.toString()),
+                    //             backgroundColor: Colors.orange.shade400,
+                    //           ));
+                    //         }
+                    //       },
+                    //       child: Text('Forgot password?')),
+                    // ),
                     Align(
                         alignment: Alignment.center,
                         child: ElevatedButton(

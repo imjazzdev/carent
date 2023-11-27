@@ -24,7 +24,7 @@ class KategoriPengajuanRental extends StatelessWidget {
             margin: EdgeInsets.only(left: 10, right: 10, top: 15),
             padding: EdgeInsets.all(10),
             child: Text(
-                'Menuggu persejuan admin. Silahkan hubungi nomor yang tertera pada produk dan lakukan pembayaran.'),
+                'Menunggu persejuan admin. Silahkan hubungi nomor yang tertera pada produk dan lakukan pembayaran.'),
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 border: Border.all(color: Colors.red.shade400)),
