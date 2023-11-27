@@ -66,7 +66,7 @@ class ItemProduct extends StatelessWidget {
                 padding:
                     const EdgeInsets.only(left: 7, right: 7, bottom: 7, top: 7),
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
@@ -74,7 +74,7 @@ class ItemProduct extends StatelessWidget {
                       overflow: TextOverflow.fade,
                       maxLines: 1,
                       style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                     ),
                     Text(lokasi),
                     Text(

@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
                     gridDelegate:
                         const SliverGridDelegateWithMaxCrossAxisExtent(
                             maxCrossAxisExtent: 200,
-                            childAspectRatio: 2 / 2.8,
+                            childAspectRatio: 2 / 2.9,
                             crossAxisSpacing: 20,
                             mainAxisSpacing: 20),
                     children: snapshot.data!.docs

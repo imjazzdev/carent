@@ -210,6 +210,8 @@ class _SignInState extends State<SignIn> {
                                       ),
                                       (route) => false);
                                 } else {
+                                  Utils.USER_NOW = email.text;
+                                  Utils.IS_ADMIN = false;
                                   print('INI BUKAN JEREMY');
                                   Navigator.pushAndRemoveUntil(
                                       context,
